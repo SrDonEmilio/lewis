@@ -2,11 +2,8 @@ import React from "react";
 import { StyleSheet, View } from "react-native";
 import { StatusBar } from "expo-status-bar";
 import { NavigationContainer } from "@react-navigation/native";
-import { createNativeStackNavigator } from "@react-navigation/native-stack";
-import { NativeBaseProvider, Box } from "native-base";
-import Home from "./src/pages/Home";
-
-const Stack = createNativeStackNavigator();
+import { NativeBaseProvider } from "native-base";
+import Stack from "./src/navigation/Stack";
 
 export default function App() {
 	return (
@@ -14,9 +11,7 @@ export default function App() {
 			<StatusBar style="auto" />
 			<NativeBaseProvider>
 				<NavigationContainer>
-					<Stack.Navigator>
-						<Stack.Screen name="Home" component={Home} />
-					</Stack.Navigator>
+					<Stack />
 				</NavigationContainer>
 			</NativeBaseProvider>
 		</View>
