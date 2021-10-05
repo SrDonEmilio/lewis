@@ -1,0 +1,77 @@
+{
+	"molecularGeometries": [
+		{
+			"nElectrons": 2,
+			"elements": [
+				{
+					"name": "Lineal",
+					"img": "a.png"
+				}
+			]
+		},
+		{
+			"nElectrons": 3,
+			"elements": [
+				{
+					"name": "Trigonal Plana",
+					"img": "b.png"
+				},
+				{
+					"name": "Angular",
+					"img": "c.png"
+				}
+			]
+		},
+		{
+			"nElectrons": 4,
+			"elements": [
+				{
+					"name": "Tetraedrica",
+					"img": "d.png"
+				},
+				{
+					"name": "Piramidal Trigonal",
+					"img": "e.png"
+				},
+				{
+					"name": "Angular",
+					"img": "f.png"
+				}
+			]
+		},
+		{
+			"nElectrons": 5,
+			"elements": [
+				{
+					"name": "Bipiramidal",
+					"img": "g.png"
+				},
+				{
+					"name": "Tetraedro Distorcionado",
+					"img": "h.png"
+				},
+				{
+					"name": "Forma de T",
+					"img": "i.png"
+				},
+				{
+					"name": "Lineal",
+					"img": "j.png"
+				}
+			]
+		},
+		{
+			"nElectrons": 6,
+			"elements": [
+				{
+					"name": "Octaedrica",
+					"img": "k.png"
+				},
+				{
+					"name": "Piramidal Cuadrada",
+					"img": "l.png"
+				}
+			]
+		}
+	]
+}
